@@ -1,5 +1,5 @@
 import sys
-
+# 백준 1940 주몽의 명령
 input = sys.stdin.readline
 N = int(input()) # 재료의 개수
 M = int(input()) # 갑옷이 되는 번호합
