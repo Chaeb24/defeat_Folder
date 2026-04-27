@@ -36,6 +36,7 @@ def merge_sort(s,e):
         k += 1
         index2 += 1
 
+A.insert(0,0)
 merge_sort(1,N)
 print(result)
 
