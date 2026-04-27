@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-
+# 백준 1377 버블정렬
 N = int(input()) # 데이터 개수
 A = []
 
