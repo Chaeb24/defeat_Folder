@@ -1,4 +1,4 @@
-# 오큰수 구하기
+# 백준  17298 오큰수 구하기
 import sys
 N = int(input()) # 수열의 크기
 A = list(map(int,input().split())) # A리스트 입력 받기
