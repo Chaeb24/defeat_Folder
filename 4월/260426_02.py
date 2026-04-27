@@ -1,7 +1,7 @@
 N = int(input()) # 데이터 개수
 A = list(map(int,input().split())) # 돈 인출하는데 필요한 시간
 S = [0] * N # 합 배열
-
+# 백준 11399
 for i in range(1, N):
     point = i
     time = A[i] # 기준
