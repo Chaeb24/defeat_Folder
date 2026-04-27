@@ -1,7 +1,7 @@
 import sys
 from collections import deque
 input = sys.stdin.readline
-
+# 백준 11003 최솟값 찾기 -> 골드1로 강등됨.
 N, L = map(int,input().split())
 mydeque = deque()
 now = list(map(int,input().split()))
