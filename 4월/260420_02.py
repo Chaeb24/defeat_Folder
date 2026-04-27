@@ -1,5 +1,5 @@
 import sys
-
+# 백준 2018 연속된 자연수의 합
 input = sys.stdin.readline
 n = int(input())
 
