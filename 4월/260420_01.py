@@ -1,5 +1,5 @@
 import sys
-
+# 백준 10986 나머지합
 input = sys.stdin.readline
 n,m = map(int,input().split())
 A = list(map(int,input().split()))
