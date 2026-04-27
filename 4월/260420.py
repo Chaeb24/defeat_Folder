@@ -1,5 +1,5 @@
 import sys
-
+# 백준 11660 구간합
 input = sys.stdin.readline
 n,m = map(int,input().split())
 A = [[0] * (n+1)]
