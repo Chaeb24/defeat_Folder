@@ -1,5 +1,5 @@
 import sys
-
+# 백준 1253 좋은 수
 input = sys.stdin.readline
 N = int(input()) # 수의 개수
 A = list(map(int,input().split()))
