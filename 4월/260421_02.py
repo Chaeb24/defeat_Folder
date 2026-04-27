@@ -1,7 +1,7 @@
 checkList = [0] * 4 #비밀번호 체크 리스트
 myList = [0] * 4 # 현재 상태 리스트
 checkSecret = 0
-
+# 백준 12891 DNA 비밀번호
 def myadd(c):
     global checkList, myList, checkSecret
 
