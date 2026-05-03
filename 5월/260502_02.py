@@ -16,10 +16,10 @@ def fill(x,y,size,value):
 
 def check(x,y,size):
     if x + size > 10 or y + size > 10:
-        return False
+        return False # 범위 밖인지
     for i in range(y,y+size):
         for j in range(x, x+size):
-            if M[i][j] != 1:
+            if M[i][j] != 1: # 색종이로 채워야하는 곳이 1로 되어있음.
                 return False
     return True 
 
@@ -37,8 +37,8 @@ def backtrack(pos,used):
                 S[size] -= 1 # 색종이 사용하고
                 fill(x,y,size,0) # 채우기
                 backtrack(pos+1, used+1)
-                fill(x,y,size,1) # 다시 돌아오기
-                S[size] += 1
+                fill(x,y,size,1) # 다시 돌아오기, 백트래킹 부분
+                S[size] += 1 # 색종이도 다시 채우기
             else:
                 backtrack(pos + 1, used)
 
