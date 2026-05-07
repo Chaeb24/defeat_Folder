@@ -1,6 +1,6 @@
 # DFS, BFS 둘 다 구현
 from collections import deque # BFS 사용
-N, M, Start = int(input().split()) # 노드, 엣지, 시작점
+N, M, Start = map(int, input().split()) # 노드, 엣지, 시작점
 A = [[] for _ in range(N+1)]
 
 for _ in range(M): 
