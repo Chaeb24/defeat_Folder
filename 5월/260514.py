@@ -20,7 +20,7 @@ def BFS(v):
                 queue.append(i)
 
 for _ in range(M):
-    S,E = map(int,input().splilt())
+    S,E = map(int,input().split())
     A[S].append(E)
 
 BFS(X)
