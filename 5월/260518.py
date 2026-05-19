@@ -17,7 +17,7 @@ def union(a,b):
 
 for i in range(1,N+1):
     dosi[i] = list(map(int,input().split()))
-    dosi[i].insert(0,0)
+    dosi[i].insert(0,0) # 첫번째 도시부터 보기 때문에 삽입
 
 route = list(map(int,input().split())) #여행 도시 정보 저장
 route.insert(0,0)
@@ -25,12 +25,12 @@ route.insert(0,0)
 parent = [0] * (N+1)
 
 for i in range(1,N+1):
-    parent[i] = i
+    parent[i] = i # 우두머리 도시 초기화
 
 for i in range(1,N+1):
     for j in range(1,N+1):
         if dosi[i][j] == 1:
-            union(i,j)
+            union(i,j) #연결이 되어있으면 union 실행
 
 index = find(route[1])
 isConnect = True
