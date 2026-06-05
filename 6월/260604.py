@@ -12,7 +12,7 @@ def solution(n, q, ans):
         for check in q: # 제공된 리스트와 com에서 같은 숫자가 있는가
             cnt = 0    
             for i in num:
-                if i == check:
+                if i in check:
                     cnt += 1
             same.append(cnt)
     
