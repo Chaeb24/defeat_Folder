@@ -16,7 +16,7 @@ def solution(n, q, ans):
                     cnt += 1
             same.append(cnt)
     
-    if ans == same:
-        answer += 1
+        if ans == same:
+            answer += 1
 
     return answer
