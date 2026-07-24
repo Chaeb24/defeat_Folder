@@ -1,7 +1,3 @@
-
-
-import java.util.*;
-
 class Traffic_light {
     public int solution(int[][] signals) {
         int answer = 0;
