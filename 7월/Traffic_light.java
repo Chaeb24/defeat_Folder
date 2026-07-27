@@ -1,7 +1,5 @@
 class Traffic_light {
     public int solution(int[][] signals) {
-        int answer = 0;
-
         int len = 1;
 
         for (int i=0; i<signals.length; i++) {
