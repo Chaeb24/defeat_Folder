@@ -11,13 +11,13 @@ class Solution {
                 b_max /= 2;
                 answer++;
             }
-            
+            //몇 번 접을 수 있는지 생각
             if(b_max < b_min){
                 int temp = b_max;
                 b_max = b_min;
                 b_min = temp;
             }
-            
+            //지갑보다 작으면 반복문 종료
             if(b_max <= w_max && b_min <= w_min){
                 break;
             }
