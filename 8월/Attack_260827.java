@@ -15,7 +15,27 @@ class Attack_260827{
                 break;
             }
 
+            int cnt = 1;
+            int time = attacks[i][0] + 1;
+
+            while(time < attacks[i+1][0]){
+                health += bandage[1];
+                //특정 시간에 도달시, 풀 충전 됨.
+                if(cnt == bandage[0]){
+                    health += bandage[2];
+                    cnt = 0; // 카운트 초기화
+                }
+
+                if(health>maxHealth){
+                    health = maxHealth;
+                }
+
+                cnt++;
+                time++;
+            }
+
         }
+        answer = health;
         return answer;
     }
 }
