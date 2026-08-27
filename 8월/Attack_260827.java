@@ -7,7 +7,7 @@ class Attack_260827{
         for(int i=0;i<attacks.length;i++){
             health -= attacks[i][1];
             // 캐릭터 죽음
-            if(health<0){
+            if(health<=0){
                 return -1;
             }
         //공격이 끝난 경우 for문 빠져나옴.
