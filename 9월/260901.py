@@ -1,4 +1,4 @@
-#백트래킹, bruteforce 문제
+#잔디 안 심어지는 원인 파악중
 
 def solution(donation):
     m = len(donation) #전체 회차 수
