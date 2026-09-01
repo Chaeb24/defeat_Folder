@@ -1,3 +1,5 @@
+#백트래킹, bruteforce 문제
+
 def solution(donation):
     m = len(donation) #전체 회차 수
     n = len(donation[0]) # 전체 사람 수
