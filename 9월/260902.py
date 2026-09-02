@@ -10,7 +10,7 @@ def is_sal(name):
         if w in name:
             return True
 
-    # 전체 글자(name)에서 salary가 포함되었는지 여부
+    # 전체 글자(name)에서 확인하고 싶은 단어길이만큼 빼고 +1 하기
     for j in range(0,len(name)-5):
         sub=name[j:j+6]
         count = 0
