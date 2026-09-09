@@ -1,0 +1,6 @@
+SELECT places.id, places.name
+FROM places
+JOIN place_reviews ON places.id = place_reviews.place_id
+WHERE comments LIKE "%cozy%"
+GROUP BY places.id
+ORDER BY places.id;
